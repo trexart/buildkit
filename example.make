@@ -3,11 +3,11 @@ core = 6.x
 
 ; Includes ====================================================================
 
-includes[] = https://raw.github.com/trexart/buildkit/master/core.make
+includes[] = https://raw.github.com/trexart/buildkit/6.x-1.x/core.make
 
-includes[] = https://raw.github.com/trexart/buildkit/master/developer.make
+includes[] = https://raw.github.com/trexart/buildkit/6.x-1.x/developer.make
 
-includes[] = https://raw.github.com/trexart/buildkit/master/standard.make
+includes[] = https://raw.github.com/trexart/buildkit/6.x-1.x/standard.make
 
 ; Override buildkit ===========================================================
 

@@ -3,12 +3,15 @@ core = 6.x
 
 ; Includes ====================================================================
 
-includes[] = https://raw.github.com/trexart/buildkit/master/core.make
+includes[] = https://raw.github.com/trexart/buildkit/6.x-1.x/core.make
 
-includes[] = https://raw.github.com/trexart/buildkit/master/developer.make
+includes[] = https://raw.github.com/trexart/buildkit/6.x-1.x/developer.make
 
-; this file also includes images.make and standard.make
-includes[] = https://raw.github.com/trexart/buildkit/master/ubercart.make
+includes[] = "https://raw.github.com/trexart/buildkit/6.x-1.x/standard.make"
+
+includes[] = "https://raw.github.com/trexart/buildkit/6.x-1.x/images.make"
+
+includes[] = "https://raw.github.com/trexart/buildkit/6.x-1.x/ubercart.make"
 
 ; Override buildkit ===========================================================
 
