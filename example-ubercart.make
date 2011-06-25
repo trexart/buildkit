@@ -7,7 +7,8 @@ includes[] = https://raw.github.com/trexart/buildkit/master/core.make
 
 includes[] = https://raw.github.com/trexart/buildkit/master/developer.make
 
-includes[] = https://raw.github.com/trexart/buildkit/master/standard.make
+; this file also includes images.make and standard.make
+includes[] = https://raw.github.com/trexart/buildkit/master/ubercart.make
 
 ; Override buildkit ===========================================================
 
