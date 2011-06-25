@@ -1,2 +1,10 @@
-README
-to do
+Our BuildKit for Drupal 6.x
+----------------------------
+
+Basically, these are just starter kits for downloading the correct modules for different instances.
+
+core.make - Downloads Drupal Core
+developer.make - Downloads required development modules
+standard.make - Downloads modules which are pretty standard across all installations
+images.make - Downloads required modules to display images
+ubercart.make - Downloads required modules for an Ubercart installation
